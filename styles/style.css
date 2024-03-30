@@ -288,7 +288,7 @@ a {
 
 .mission__inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .mission__content {
@@ -389,7 +389,7 @@ a {
 .info__inner {
   margin-top: 56px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .info__title {
@@ -615,7 +615,7 @@ a {
 
 .faq__inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 56px;
 }
 
@@ -670,7 +670,7 @@ a {
 
 .more__inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .more__text {
@@ -801,7 +801,7 @@ a {
   background: #022c22;
   flex-grow: 1;
   padding: 72px 0;
-  padding-left: 15px;
+  padding-left: 115px;
 }
 
 .connection__title {
