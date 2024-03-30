@@ -1,0 +1,108 @@
+.promo {
+	padding: 72px 0 302px 0;
+	background-color: $dark-green;
+	color: #fff;
+
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.promo-inner-shadow {
+	position: absolute;
+	height: 255px;
+	width: 100%;
+	bottom: 0px;
+	background: rgb(2, 44, 34);
+	background: linear-gradient(
+		0deg,
+		rgba(2, 44, 34, 1) 0%,
+		rgba(255, 255, 255, 0) 100%
+	);
+	z-index: 2;
+}
+.promo__bg-el {
+	display: flex;
+
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-radius: 16px;
+	background-size: cover;
+}
+.promo__bg-el--1 {
+	width: 312px;
+	height: 394px;
+	background-image: url(../images/promo/promo-bg-item1.jpg);
+	left: -25px;
+	top: 136px;
+}
+.promo__bg-el--2 {
+	width: 332px;
+	height: 296px;
+	background-image: url(../images/promo/promo-bg-item2.jpg);
+	right: -30px;
+	top: 86px;
+}
+.promo__bg-el--3 {
+	width: 488px;
+	height: 186px;
+	background-image: url(../images/promo/promo-bg-item3.jpg);
+	background-size: cover;
+	left: 216px;
+	bottom: -30px;
+}
+.promo__bg-el--4 {
+	width: 312px;
+	height: 394px;
+	background-image: url(../images/promo/promo-bg-item4.jpg);
+	background-size: cover;
+	right: 80px;
+	bottom: -100px;
+	z-index: -1;
+}
+
+.promo__slogan {
+	display: flex;
+	gap: 8px;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.promo__slogan-icon {
+}
+.promo__slogan-text {
+	font-size: 14px;
+}
+.promo__title {
+	font-family: 'Figtree', sans-serif;
+	font-size: 96px;
+	max-width: 592px;
+	margin: 0 auto;
+	-webkit-text-fill-color: #fff;
+	-webkit-text-stroke: 1px #000;
+	margin-bottom: 32px;
+}
+.promo__subtitle {
+	font-family: 'Figtree', sans-serif;
+	font-size: 20px;
+	-webkit-text-fill-color: #fff;
+	-webkit-text-stroke: 0.6px #000;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 40px;
+	line-height: 144%;
+}
+.promo__btn-wrapper {
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+}
+.main-btn--green {
+	background-color: $light-green;
+	color: #000;
+	border: none;
+}
+.promo__btn {
+}

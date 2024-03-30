@@ -1,0 +1,31 @@
+.header {
+	padding: 24px 0;
+	background-color: $dark-green;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.header__nav {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+.logo {
+}
+.header__nav-list {
+	display: flex;
+	gap: 32px;
+	flex-grow: 1;
+}
+.header__nav-item {
+	color: #fff;
+}
+.main-btn {
+}
+.header__btn {
+}
+.header__link {
+	transition: opacity 0.4s ease;
+}
+.header__link:hover {
+	opacity: 0.7;
+}

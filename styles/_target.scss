@@ -1,0 +1,21 @@
+.target {
+	padding: 140px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.target__title {
+	font-family: 'Figtree';
+	font-size: 76px;
+	line-height: 105%;
+	text-align: center;
+	letter-spacing: -0.03em;
+	max-width: 957px;
+	margin-bottom: 64px;
+}
+
+.target__btn {
+	border: none;
+	color: #fff;
+	background: $dark-green;
+}

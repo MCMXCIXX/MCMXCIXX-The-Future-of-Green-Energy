@@ -1,0 +1,71 @@
+.footer {
+	padding: 96px 0 55px 0;
+	background: $dark-green;
+	color: #fff;
+	background-image: url(../images/footer/Lines.svg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.footer__content {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 163px;
+}
+.logo {
+}
+.footer__logo {
+}
+.footer__nav {
+	display: flex;
+	gap: 32px;
+}
+.footer__list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	width: 176px;
+}
+.footer__item-title {
+	font-size: 16px;
+}
+.footer__item {
+	font-size: 16px;
+	color: rgba($color: #fff, $alpha: 0.8);
+}
+.footer__item-mark {
+	font-size: 12px;
+	padding: 2px 8px;
+	background: $light-green;
+	border-radius: 6px;
+	color: $dark-green;
+	margin-left: 8px;
+}
+.footer__social {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+.footer__social-item {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding: 4px;
+	border-radius: 100px;
+	background: rgba($color: #fff, $alpha: 0.24);
+	width: 256px;
+	font-size: 16px;
+}
+.footer__social-img {
+}
+.footer__social-text {
+}
+.footer__copy {
+	display: flex;
+	justify-content: end;
+}
+.footer__copy-text {
+	font-size: 16px;
+	color: rgba($color: #fff, $alpha: 0.8);
+}
